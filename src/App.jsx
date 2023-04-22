@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <Aside />
       <Principal />
+      
     </div>
   );
-}
+} 
 
 export default App;
