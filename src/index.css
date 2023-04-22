@@ -14,21 +14,59 @@ body {
 }
 
 .container {
+  /* Propiedades para los contenedores */
   height: 100vh;
-  width: 50vw;
+  /*   width: 50vw; */
   display: inline-block;
 }
 
 .principal {
   background-color: indigo;
+  width: 75vw;
 }
 
 .aside {
   background-color: Orange;
   float: left;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 50px;
 }
 
 #img-aside {
   border-radius: 50%;
-  height: 10%;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.button {
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.miniaturas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(158, 158, 180); */
+}
+
+.miniatura {
+  margin: 5px;
+  margin-top: 30px;
+  width: 90px;
+  height: 70px;
+  border: 2px solid black;
+  /* border-radius: 50%; */
 }
