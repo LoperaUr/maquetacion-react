@@ -27,12 +27,10 @@ const imagenes = [
 const Principal = () => {
   return (
     <div className="container principal">
-      <section className="top">
-        <div className="button-top">Agregar</div>
-      </section>
-      <section className="bottom">
-        <Galeria imagenes={imagenes} />
-      </section>
+      <div className="button-top">Agregar</div>
+
+      <Galeria imagenes={imagenes} />
+
     </div>
   );
 };

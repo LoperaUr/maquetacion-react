@@ -2,7 +2,7 @@ import React from "react";
 
 const Galeria = ({ imagenes }) => {
   return (
-    <div>
+    <div className="cards-container">
       {imagenes.map((imagen) => (
         <section className="card">
           <img src={imagen.fuente} className="img" />
