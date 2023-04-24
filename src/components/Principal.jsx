@@ -28,9 +28,7 @@ const Principal = () => {
   return (
     <div className="container principal">
       <div className="button-top">Agregar</div>
-
       <Galeria imagenes={imagenes} />
-
     </div>
   );
 };
