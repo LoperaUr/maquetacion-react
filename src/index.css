@@ -18,12 +18,12 @@ body {
 }
 
 .principal {
-  background-color: indigo;
+  background-color: #0a9396;
   width: 75vw;
 }
 
 .aside {
-  background-color: Orange;
+  background-color: #005f73;
   float: left;
   width: 25vw;
   display: flex;
@@ -67,10 +67,11 @@ body {
 
 .button-top {
   text-align: center;
-  background-color: black;
+  background-color: #e9d8a6;
   padding: 10px;
   margin: 20px;
-  color: white;
+  color: #000;
+  font-size: large;
   border-radius: 10px;
   width: 100px;
 }
@@ -94,11 +95,12 @@ body {
   width: 100px;
   height: 70px;
   margin-left: 100px;
-  
 }
 
 .text-container {
   border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 p {
